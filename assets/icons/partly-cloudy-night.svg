@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="moonP" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2EEF9" />
+      <stop offset="100%" stop-color="#7AA2DC" />
+    </linearGradient>
+    <linearGradient id="cloudNight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#64748B" />
+    </linearGradient>
+    <filter id="shadowPN" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#050B14" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  <!-- Moon -->
+  <g transform="translate(18, 6)">
+    <path d="M14 2C9.5 2 5.5 4.5 3 8C6 8.5 9 10 10.5 13C12 16 12 19 10.5 22C16 21 19 16 19 11C19 6 16.5 2.5 14 2Z" fill="url(#moonP)" />
+  </g>
+  <!-- Foreground cloud -->
+  <g filter="url(#shadowPN)">
+    <path d="M48 50H19C14.03 50 10 45.97 10 41C10 36.36 13.51 32.54 18.04 32.06C19.64 24.1 26.63 18 35 18C44.39 18 52 25.61 52 35C52 35.68 51.96 36.35 51.88 37.01C53.77 38.35 55 40.53 55 43C55 46.87 51.87 50 48 50Z" fill="url(#cloudNight)" />
+  </g>
+</svg>

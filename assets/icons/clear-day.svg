@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE600" />
+      <stop offset="70%" stop-color="#FFAE00" />
+      <stop offset="100%" stop-color="#FF7A00" />
+    </radialGradient>
+    <filter id="sunGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <g filter="url(#sunGlow)">
+    <circle cx="32" cy="32" r="14" fill="url(#sunGrad)" />
+    <!-- Sun Rays -->
+    <line x1="32" y1="6" x2="32" y2="12" stroke="#FFAE00" stroke-width="3" stroke-linecap="round" />
+    <line x1="32" y1="52" x2="32" y2="58" stroke="#FFAE00" stroke-width="3" stroke-linecap="round" />
+    <line x1="6" y1="32" x2="12" y2="32" stroke="#FFAE00" stroke-width="3" stroke-linecap="round" />
+    <line x1="52" y1="32" x2="58" y2="32" stroke="#FFAE00" stroke-width="3" stroke-linecap="round" />
+    <line x1="13.6" y1="13.6" x2="17.8" y2="17.8" stroke="#FFAE00" stroke-width="3" stroke-linecap="round" />
+    <line x1="46.2" y1="46.2" x2="50.4" y2="50.4" stroke="#FFAE00" stroke-width="3" stroke-linecap="round" />
+    <line x1="13.6" y1="50.4" x2="17.8" y2="46.2" stroke="#FFAE00" stroke-width="3" stroke-linecap="round" />
+    <line x1="46.2" y1="17.8" x2="50.4" y2="13.6" stroke="#FFAE00" stroke-width="3" stroke-linecap="round" />
+  </g>
+</svg>

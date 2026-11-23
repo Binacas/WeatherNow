@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="cloudDrizzle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+    <linearGradient id="dripGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+  </defs>
+  <!-- Cloud -->
+  <path d="M48 38H19C14.03 38 10 33.97 10 29C10 24.36 13.51 20.54 18.04 20.06C19.64 12.1 26.63 6 35 6C44.39 6 52 13.61 52 23C52 23.68 51.96 24.35 51.88 25.01C53.77 26.35 55 28.53 55 31C55 34.87 51.87 38 48 38Z" fill="url(#cloudDrizzle)" />
+  <!-- Drizzle drops -->
+  <line x1="22" y1="45" x2="20" y2="50" stroke="url(#dripGrad)" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="32" y1="45" x2="30" y2="50" stroke="url(#dripGrad)" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="42" y1="45" x2="40" y2="50" stroke="url(#dripGrad)" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="27" y1="53" x2="25" y2="58" stroke="url(#dripGrad)" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="37" y1="53" x2="35" y2="58" stroke="url(#dripGrad)" stroke-width="2.5" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <radialGradient id="sunP" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE600" />
+      <stop offset="100%" stop-color="#FF8A00" />
+    </radialGradient>
+    <linearGradient id="cloudP" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#CBD5E1" />
+    </linearGradient>
+    <filter id="shadowP" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#0F172A" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <!-- Sun behind cloud -->
+  <g transform="translate(10, 4)">
+    <circle cx="16" cy="16" r="10" fill="url(#sunP)" />
+    <line x1="16" y1="2" x2="16" y2="5" stroke="#FFAE00" stroke-width="2" stroke-linecap="round" />
+    <line x1="6" y1="6" x2="8.5" y2="8.5" stroke="#FFAE00" stroke-width="2" stroke-linecap="round" />
+    <line x1="2" y1="16" x2="5" y2="16" stroke="#FFAE00" stroke-width="2" stroke-linecap="round" />
+    <line x1="26" y1="6" x2="23.5" y2="8.5" stroke="#FFAE00" stroke-width="2" stroke-linecap="round" />
+    <line x1="30" y1="16" x2="27" y2="16" stroke="#FFAE00" stroke-width="2" stroke-linecap="round" />
+  </g>
+  <!-- Foreground cloud -->
+  <g filter="url(#shadowP)">
+    <path d="M48 48H19C14.03 48 10 43.97 10 39C10 34.36 13.51 30.54 18.04 30.06C19.64 22.1 26.63 16 35 16C44.39 16 52 23.61 52 33C52 33.68 51.96 34.35 51.88 35.01C53.77 36.35 55 38.53 55 41C55 44.87 51.87 48 48 48Z" fill="url(#cloudP)" />
+  </g>
+</svg>
